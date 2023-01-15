@@ -1,0 +1,478 @@
+/* font family link */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Work+Sans:wght@400;500&display=swap');
+
+/* css start */
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* fixed width container */
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+
+/* button for all */
+
+.btn-primary {
+    text-transform: capitalize;
+    background: #FF900E;
+    color: #fff;
+    font-size: 20px;
+    padding: 20px 25px;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+/* section title for all */
+
+.section-title h2 {
+    font-size: 45px;
+    font-weight: 700;
+    color: #131313;
+}
+.section-title p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #727272;
+    max-width: 550px;
+    margin-top: 10px;
+}
+
+/* header section css ............................. */
+
+header {
+    background: rgba(255, 144, 14, 0.1);
+}
+
+/* navbar css start */
+
+#navbar-section {
+    padding: 30px 0;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-logo h2 {
+    font-size: 35px;
+    font-weight: bold;
+    color: #131313;
+}
+.nav-menu ul li {
+    display: inline-block;
+}
+.nav-menu ul li a {
+    font-size: 18px;
+    font-weight: 500;
+    color: #424242;
+    margin-left: 30px;
+    text-transform: capitalize;
+}
+
+/* toggle menu */
+
+.nav-menu input, .nav-menu label i {
+    display: none;
+}
+
+/* banner css .............................*/
+
+.banner {
+    margin-top: 50px;
+}
+.banner-text {
+    text-align: center;
+}
+.banner h2 {
+    font-size: 55px;
+    font-weight: 700;
+    color: #131313;
+    text-align: center;
+}
+.banner p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #727272;
+    max-width: 870px;
+    margin: 30px auto;
+    text-align: center;
+}
+.banner-img {
+    width: 100%;
+    height: auto;
+    padding: 40px 0;
+}
+.banner-img img{
+    width: 100%;
+    height: 100%;
+}
+
+
+/* team css ............................. */
+.team {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding: 50px 30px;
+}
+/*  */
+.team-img {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+.team-img img {
+    width: 275px;
+    height: auto;
+}
+/*  */
+.team-features h2 {
+    font-size: 45px;
+    font-weight: 500;
+    color: #727272;
+}
+.team-features h2 b {
+    font-weight: bold;
+    font-weight: 700;
+    color: #000;
+}
+.team-features h2 span {
+    font-weight: bold;
+    font-weight: 700;
+    color: #FF900E;
+}
+.team-features p {
+    font-size: 15px;
+    font-weight: 400;
+    color: #727272;
+    line-height: 25px;
+    margin: 30px 0;
+}
+
+
+/* feature section css ............................. */
+
+#feature-section {
+    padding: 50px 0;
+}
+.features-title h2 {
+    padding: 0 20px;
+    border-left: 5px solid #FF900E;
+}
+.features-title p {
+    margin: 20px 0;
+}
+.features {
+    display: flex;
+    gap: 100px;
+}
+.features-img {
+    position: relative;
+    max-width: 100%;
+    height: auto;
+}
+.features-img img {
+    height: 100%;
+    width: 100%;
+    border-radius: 8px;
+    object-fit: cover;
+}
+/*  */
+
+.features-img .experience{
+    display: inline-block;
+    background: #FF900E;
+    padding: 40px;
+    border-radius: 8px;
+    position: absolute;
+    bottom: -60px;
+    left: -60px;
+    text-align: center;
+}
+
+.experience h2 {
+    font-size: 45px;
+    font-weight: bold;
+    color: #fff;
+}
+.experience p {
+    font-size: 20px;
+    font-weight: 500;
+    color: #fff;
+}
+
+/*  */
+
+.feature {
+    padding: 30px;
+    margin: 30px 0;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(155, 155, 155, 0.144);
+}
+.feature p {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #727272;
+    max-width: 550px;
+    margin-top: 10px;
+}
+
+/* fact about us - css ............................. */
+
+#facts-about-us {
+    padding-top: 100px;
+}
+.facts {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 100px;
+    padding: 100px 30px;
+}
+.fact {
+    line-height: 45px;
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+}
+.fact h2 {
+    font-size: 35px;
+    font-weight: 600;
+    color: #424242;
+}
+.fact p {
+    font-size: 16px;
+    font-weight: 600;
+    color: #727272;
+}
+
+
+
+
+/* sponsors css ............................. */
+
+#sponsors-section {
+    padding: 50px 0;
+}
+.sponsor-section-title {
+    text-align: center;
+}
+.sponsor-section-title p {
+    margin: 10px auto;
+}
+.sponsors {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 0;
+}
+.sponsor-logo {
+    background-color: #fff;
+}
+.sponsor-logo img {
+    mix-blend-mode: luminosity;
+}
+
+/* contact-section ............................. */
+.contact-section {
+    margin-bottom: 50px;
+}
+.contact-us {
+    padding: 100px 50px;
+    display: flex;
+    gap: 100px;
+    background: #FFF4E7;
+}
+.connect h4, .messege h4 {
+    font-weight: 700;
+    font-size: 45px;
+    margin-bottom: 50px;
+}
+.connect p {
+    color: rgb(117, 117, 117);
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+.connect-medium a {
+    font-size: 20px;
+    color: #FD6E0A;
+    margin-right: 5px;
+}
+.messege input[type="text"], input[type="email"], textarea {
+    margin-bottom: 24px;
+    width: 100%;
+    font-size: 17px;
+    padding: 18px 30px;
+    border: none;
+    outline: none;
+}
+.messege input[type="text"]:focus, 
+input[type="email"]:focus, 
+textarea:focus {
+    border: 3px solid #FF900E;
+    border-radius: 5px;
+}
+
+/* footer section css ............................. */
+
+#footer-section {
+    background: #FFF4E7;
+}
+.footer {
+    /* background: #FFF4E7; */
+    border-radius: 8px;
+}
+.footer p{
+    padding: 30px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+
+/* responsive css for small device ............................. */
+
+@media screen and (max-width:576px) {
+    /* nav menu css */
+    #navbar-section {
+        padding: 30px 0;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        background: #FFF4E7;
+        z-index: 1;
+    }
+    .nav-menu ul {
+        display: none;
+    }
+    /* toggle-menu css */
+    .nav-menu label i {
+        display: block;
+        font-size: 25px;
+        color: #131313;
+        border: 2px solid #FF900E;
+        border-radius: 5px;
+        padding: 3px 10px;
+        cursor: pointer;
+    }
+    .nav-menu input[type="checkbox"]:checked~ul {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        transition: .5s linear;
+        position: fixed;
+        height: 50vh;
+        left: 0;
+        right: 0;
+        top: 100px;
+        padding: 30px 0;
+        background: #fff4e7f1;
+    }
+    .nav-menu ul li {
+        display: block;
+        line-height: 50px;
+    }
+    .nav-menu ul li a {
+        font-size: 20px;
+        font-weight: bold;
+        transition: .2s linear;
+    }
+    .nav-menu ul li a:hover {
+        font-size: 21px;
+        color: #000;
+    }
+
+    /* banner section css */
+    .banner {
+        padding-top: 150px;
+    }
+
+    /* team section css */
+    .team-features {
+        text-align: center;
+    }
+    .team {
+        flex-direction: column-reverse;
+    }
+    .team-img {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    /* features section css */
+    .features {
+        gap: 50px;
+        flex-direction: column;
+    }
+    .features-img {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .features-img .experience {
+        position: unset;
+        margin-top: -75px;
+    }
+
+    /* facts section css */
+    #facts-about-us {
+        padding-top: 50px;
+    }
+    .facts {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+    .fact {
+        height: 200px;
+        width: 200px;
+    }
+
+    /* contact-section */
+    .contact-us {
+        padding: 60px 30px;
+        gap: 50px;
+        flex-direction: column;
+    }
+
+    /* sponsors section css */
+    #sponsors-section {
+        margin-bottom: 0px;
+    }
+    .sponsors {
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 40px;
+    }
+
+    /* footer section css */
+    .footer p {
+        font-size: 16px;
+        padding: 20px;
+    }
+
+    /*  */
+    .section-title {
+        text-align: center;
+    }
+}
+
